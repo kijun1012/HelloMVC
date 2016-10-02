@@ -39,6 +39,8 @@ public class Home extends HttpServlet {
 			page = "/view/loginform.jsp";
 		else if (action.equals("register"))
 			page = "/view/registerform.jsp";
+		else if (action.equals("index"))
+			page = "/index.jsp";
 		else
 			page = "/view/error.jsp"; 
 		
